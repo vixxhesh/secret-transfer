@@ -87,7 +87,6 @@ oauthlib==3.2.0
 openpyxl==3.1.5
 overrides==7.7.0
 packaging==24.1
-PAM==0.4.2
 pandas==2.2.2
 pandocfilters==1.5.1
 parso==0.8.4
