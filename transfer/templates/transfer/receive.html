@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receive File</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'transfer/styles.css' %}">
+</head>
+<body>
+    <h1>Receive File</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Receive</button>
+    </form>
+</body>
+</html>
