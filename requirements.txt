@@ -35,7 +35,6 @@ eyeD3==0.9.7
 fastjsonschema==2.20.0
 filelock==3.15.4
 fqdn==1.5.1
-grpcio==1.30.2
 gunicorn==22.0.0
 gyp==0.1
 h11==0.14.0
